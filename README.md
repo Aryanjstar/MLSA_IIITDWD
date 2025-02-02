@@ -29,14 +29,12 @@ It is a web platform developed for the **MLSA Chapter at IIIT Dharwad**, aiming 
     npm install
     ```
 
-4. Set up the database with the provided schema (`db/schema.sql`).
-
-5. Start the application:
+4. Start the application:
     ```bash
     npm start
     ```
 
-6. Visit `http://localhost:3000` in your browser to access the platform.
+5. Visit `http://localhost:3000` in your browser to access the platform.
 
 ## Contributing
 Feel free to fork the repository, make changes, and submit pull requests. Contributions are welcome to improve the platform's functionality and user experience.

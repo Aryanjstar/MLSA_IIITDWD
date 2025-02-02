@@ -1,7 +1,7 @@
 # MLSA Chapter IIIT Dharwad
 
 ## Overview
-**Share** is a web platform developed for the **MLSA Chapter at IIIT Dharwad**, aiming to engage students with resources, updates, and events related to the Microsoft Learn Student Ambassador (MLSA) program. The platform helps connect students with MLSA initiatives and provides a space to stay updated on community-driven activities.
+It is a web platform developed for the **MLSA Chapter at IIIT Dharwad**, aiming to engage students with resources, updates, and events related to the Microsoft Learn Student Ambassador (MLSA) program. The platform helps connect students with MLSA initiatives and provides a space to stay updated on community-driven activities.
 
 ## Features
 - **Community Updates**: Stay informed about the latest events, programs, and news from MLSA.
@@ -9,9 +9,8 @@
 - **Event Management**: View upcoming events and participate in MLSA activities and initiatives.
 
 ## Tech Stack
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express.js
-- **Database**: MySQL (for event management and user data)
+- **HTML, CSS, JavaScript**
+
 
 ## Installation
 

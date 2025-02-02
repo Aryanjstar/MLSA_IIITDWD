@@ -1,0 +1,278 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0d1b2a; /* Dark blue background */
+    color: #e0e0e0; /* Light grey text */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(13, 27, 42, 0.9); /* Dark blue with transparency */
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    flex-wrap: wrap; /* Allow items to wrap for small screens */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 15px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap; /* Allow items to wrap for small screens */
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: #e0e0e0; /* Light grey text */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #00aaff; /* Bright blue on hover */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 100%); /* Gradient background */
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.motto {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px 0;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff; /* Bright blue glow */
+    }
+    100% {
+        text-shadow: 0 0 20px #00aaff, 0 0 40px #00aaff;
+    }
+}
+
+.btn-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+}
+
+.btn {
+    background: #00aaff; /* Bright blue button */
+    color: #0d1b2a; /* Dark blue text */
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0088cc; /* Slightly darker blue on hover */
+}
+
+/* Content Sections */
+.content-section {
+    padding: 50px 15%;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background: rgba(0, 170, 255, 0.1); /* Light blue background */
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.grid-item:hover {
+    transform: translateY(-10px);
+    background: rgba(0, 170, 255, 0.2); /* Slightly brighter on hover */
+}
+
+.event-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Welcome to MLSA Container */
+.welcome-container {
+    background: linear-gradient(135deg, #1b263b 0%, #415a77 100%); /* Gradient dark blue background */
+    color: #e0e0e0; /* Light grey text */
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.welcome-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.welcome-container p {
+    font-size: 1.2rem;
+}
+
+/* Resources Section */
+#resources .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#resources .grid-item p {
+    margin-bottom: 10px; /* Adds space between the content and the button */
+}
+
+#resources .btn {
+    margin-top: 10px; /* Adds space above the button */
+}
+
+/* Contact Section */
+#contact .grid-item a {
+    color: #e0e0e0; /* Light grey text */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s;
+}
+
+/* Button Container for Responsive Design */
+.btn-container {
+    display: flex;
+    flex-direction: row; /* Default: buttons in a line */
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .btn-container {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+        align-items: center; /* Center buttons */
+        width: 70%; /* Buttons take 70% of the screen width */
+        margin-left: 15%; /* 15% margin on the left */
+        margin-right: 15%; /* 15% margin on the right */
+    }
+
+    .btn {
+        width: 100%; /* Buttons take full width of the container */
+        text-align: center; /* Center text inside buttons */
+        margin: 5px 0; /* Add margin between stacked buttons */
+    }
+}
+
+/* Button Styles */
+.btn {
+    background: #00aaff; /* Bright blue button */
+    color: #0d1b2a; /* Dark blue text */
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background 0.3s;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.btn:hover {
+    background: #0088cc; /* Slightly darker blue on hover */
+}
+
+#contact .grid-item a:hover {
+    color: #00aaff; /* Bright blue on hover */
+}
+
+#contact .grid-item a i {
+    font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: rgba(13, 27, 42, 0.9); /* Dark blue with transparency */
+    color: #e0e0e0; /* Light grey text */
+    padding: 15px 0;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hero-content {
+        padding: 0 20px;
+    }
+
+    .content-section {
+        padding: 50px 10%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; /* Stack grid items */
+    }
+
+    .btn-container {
+        margin-top: 20px;
+    }
+
+    .btn {
+        width: 100%; /* Make buttons full width */
+    }
+}

@@ -36,51 +36,6 @@ sections.forEach(section => {
     observer.observe(section);
 });
 
-// Fetch upcoming events data (from PDF)
-const upcomingEvents = [
-    {
-        title: "UI/UX Designing Workshop",
-        date: "5th February 2025",
-        description: "Learn the fundamentals of UI/UX design and get hands-on experience with Figma."
-    },
-    {
-        title: "Open Source Workshop",
-        date: "27th February 2025",
-        description: "Explore the world of open-source development and learn how to contribute effectively."
-    },
-    
-    {
-        title: "IoT-Powered Smart Robot Car Workshop",
-        date: "5th - 6th March 2025",
-        description: "Build a smart robotic car using ESP8266/ESP32 and essential electronic components."
-    },
-    {
-        title: "MLSA Logic League 1.0",
-        date: "7th March 2025",
-        description: "A competitive programming event featuring debugging and coding contests."
-    },
-    {
-        title: "Vedic Coding",
-        date: "10th March 2025",
-        description: "Integrate traditional Vedic mathematical algorithms with modern programming techniques."
-    },
-    {
-        title: "ModelCraft: Hands-on ML Workshop",
-        date: "12th March 2025",
-        description: "Work on a guided AI/ML project and implement a real-world solution."
-    },
-    {
-        title: "Data Duel - AI/ML Showdown",
-        date: "13th March 2025",
-        description: "Test your AI/ML knowledge and model-building capabilities in this competitive event."
-    },
-    {
-        title: "Cybersecurity Unplugged",
-        date: "15th March 2025",
-        description: "An insightful session with a seasoned Cybersecurity Expert."
-    }
-];
-
 // Sort events by date
 upcomingEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
 

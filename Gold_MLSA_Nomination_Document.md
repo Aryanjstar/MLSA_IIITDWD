@@ -185,7 +185,7 @@ Aryan consistently demonstrates exemplary adherence to program agreements and co
 
 **Collaborative and Supportive Approach**: His mentorship style and community building efforts exemplify the collaborative spirit emphasized in the program agreement. Rather than positioning himself as the sole authority, he empowers others to lead, share knowledge, and take ownership of community initiatives. His doubt-clearing community approach demonstrates his commitment to helping others succeed.
 
-**Educational Focus and Value Creation**: All his activities—from hosting 12+ approved events to creating educational content through "MLSA Tech Bytes"—prioritize genuine educational value and skill development over superficial metrics or personal recognition. His technical projects like "PUR" and Ayurveda ML research contribute meaningful value to the technology community.
+**Educational Focus and Value Creation**: All his activities—from hosting 10 approved events to creating educational content through "MLSA Tech Bytes"—prioritize genuine educational value and skill development over superficial metrics or personal recognition. His technical projects like "PUR" and Ayurveda ML research contribute meaningful value to the technology community.
 
 **Technology Advocacy and Adoption**: His efforts to increase Microsoft ecosystem adoption, particularly his successful campaign to transition users from Google Forms to Microsoft Forms, demonstrate his authentic commitment to promoting Microsoft technologies based on their educational and practical value rather than mere compliance.
 
